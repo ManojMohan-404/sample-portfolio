@@ -1,0 +1,157 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color:#D3C5E5;
+    
+}
+
+.navbar .nav-link {
+    color: black !important;
+    border: 2px solid black;  /* Adds a black border */
+    border-radius: 5px;        /* Optional: Rounds the corners */
+    padding: 5px 10px;         /* Adds spacing inside the button */
+    margin: 5px;               /* Adds spacing between buttons */
+}
+
+.navbar .nav-link {
+    background: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    border-color: #19747E; /* Change border color on hover */
+    background-color: #D1E8E2; /* Light background on hover */
+}
+
+
+.navbar .navbar-brand {
+    color: black !important;
+}
+
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: linear-gradient(to bottom, #8AAAE5, #408EC6);
+    
+}
+
+body {
+        background: linear-gradient(to bottom, #8AAAE5, #408EC6);
+    
+}
+
+/* text css above hero image*/
+#hi{
+    font-size: 25px;
+}
+.hero-text #hero_name {
+    font-size: 55px !important;
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.8); /* Shadow effect */
+}
+
+
+.hero_desc {
+    font-size: 30px;
+    padding-left: 10px;
+}
+.hero-text {
+    padding-left: 220px !important;
+    padding-top: 280px;
+    position: absolute;
+    color: white;
+}
+
+#main_logo{
+    height: 700px;
+    display:flexbox;
+    padding-left: 770px;
+    padding-top: 100px;
+}
+
+#home button{
+    margin-top:  10px;
+    margin-left: 40px;
+    color: white;
+}
+/* spacing on all sections */
+/* #contact, #about, #services, #portfolio, #contact {
+    
+} */
+#contact {
+    padding-bottom: 50px;
+
+}
+
+#details {
+  padding-left: 30px;
+    
+}
+
+
+.imageAboutPage {
+    width: 100%;
+    padding-right: 40px;
+}
+
+/* Styling for Services heading */
+.services-heading {
+    letter-spacing: 5px; /* Adds space between letters */
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+
+/*contact section css */
+#contact {
+    color: white;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100vh;          /* Makes the section take up the full viewport height */
+}
+
+.contactContent {
+    width: 100%;
+    max-width: 500px; /* Optional: Adjust the form's width for a balanced look */
+    padding: 20px;    /* Optional: Adds some spacing */
+}
+
+#social_media {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds spacing between icons */
+    margin-top: 20px; /* Optional for layout adjustment */
+}
+
+#social_media a img {
+    height: 50px;
+    width: 40px;
+    padding-top: 10px;
+}
+
+#footerr{
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+     padding: 10px 0;
+}
